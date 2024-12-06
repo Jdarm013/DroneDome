@@ -1,0 +1,82 @@
+*{box-sizing: border-box;}
+body { background-color: #000000;
+ color:#666666; 
+font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {background-color: #F1F0F0 ;
+	background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+	background-repeat: no-repeat;
+	background-position: center
+	}
+
+header { background-color: #002171;
+	color: #010101;
+	text-align: center;
+	
+}
+header a{text-decoration: none;}
+header a:link{color: #000000;}
+header a:visited{color: #FFF;}
+header a:hover{color: #90C7E3;}
+
+nav {text-align: center;
+	background-color: aliceblue;
+	font-weight: bold;
+	margin-top: 0;
+	padding: 0;
+	font-size: 120%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	}
+
+nav ul{list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;}
+nav li {border-bottom: 1px solid #000033;}
+nav a {text-decoration: none;}
+nav a:link {color: #A8A8A6;}
+nav a:visited {color: #344873;}
+nav a:hover{color: #A52A2A}
+main {padding: 1px 20px 20px 20px;
+	
+	display: block;
+	background-color: #FFF;
+	padding-left: 30px;
+	overflow: auto;
+ 	}
+h1 {margin-bottom:0;
+	background-color: #9E9C9C;
+	margin-top: 0;
+	font-family: Georgia, "Times New Roman",serif;
+	letter-spacing: 0.25em;
+	padding-bottom: .5em;
+	padding-top: .5em; }
+h2 { color: #A4A3A3; 
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCC}
+h3 { color: #787777;
+font-family: Georgia, "Times New Roman", serif;}
+main ul {list-style-image: url( );}
+dt { color: #000000; }
+.resort { color: #000000; 
+font-weight: bold;}
+#contact {font-size: 90%; }
+footer {font-size:75%;
+	font-style: italic;
+	text-align: center;
+font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+	background-color: #D9D6D6}
+
+#homeHead {height: 190px;
+	background-image: url("../Drone Dome Site Files 2.0/joey/download (1).jpg");  
+	background-repeat: repeat;
+	background-size: 100% 100%;}
+#relatedPages{height: 276px;
+	background-image: url(../Drone%20Dome%20Site%20Files%202.0/joey/sddefault.jpg);
+	background-repeat: repeat;
+	background-size: 100% 100%;}
+#flySpotHead{height: 275px;
+	background-image: url(../Drone%20Dome%20Site%20Files%202.0/joey/hq720.jpg);
+	background-repeat: repeat;
+	background-size: 100% 100%;}

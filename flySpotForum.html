@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+<title>Drone Dome::Fly Spot Forum</title>
+<link href="../Pacific Trails Files/pacific.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+</head>
+<body>
+	<div id="wrapper">
+<header>
+	<h1>The Drone Dome</h1>
+	</header>
+<nav>
+	<a href="index-DD.html">Home</a> &nbsp;
+	<a href="flySpotForum.html">Fly Spot Forum</a> &nbsp;
+	<a href="relatedWebPages.html">Related WebPages</a>
+	</nav>
+	<div>
+	<div id="flySpotHead">
+		</div>
+	</div>
+	<main>
+    <h2>FlySpots and Drone Discussion Forum</h2>
+		<h3>Fly Spot Chat</h3>
+		
+    <input type="text" id="userInput">
+    <button onclick="printInput()">Print</button>
+
+    <p id="output"></p>
+
+    <script>
+        function printInput() {
+            const input = document.getElementById("userInput").value;
+            document.getElementById("output").textContent = input;
+        }
+    </script>
+	</main>
+	<footer>
+	<i><small>Copyright &copy; 2024 The Drone Dome<br>
+	<a href="mailto:yourfirstname@yourlastname.com">DroneDome@gmail.com</a></small></i>
+	</footer>
+	</div>
+	</body>
+	</html>
